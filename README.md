@@ -11,7 +11,7 @@ Asagidaki komut ile kurulumu gerceklestirebilirsiniz.
 git clone https://github.com/emreakdik/42goinfretool; cd 42goinfretool; ./install.sh
 ```
 
-Daha sonra tool'u kullanmaya baslayabilirsiniz.
+Daha sonra terminal'inizi kapatip acip tool'u kullanmaya baslayabilirsiniz.
 
 ## Kullanim Talimatlari
 

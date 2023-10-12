@@ -8,7 +8,7 @@ Bu araç, geliştirme sürecinizde ihtiyaç duyduğunuz tarayıcıları veya ara
 
 Asagidaki komut ile kurulumu gerceklestirebilirsiniz. 
 ```bash
-git clone https://github.com/emreakdik/42goinfretool; cd 42goinfreetool; ./install.sh
+git clone https://github.com/emreakdik/42goinfretool; cd 42goinfretool; ./install.sh
 ```
 
 Daha sonra tool'u kullanmaya baslayabilirsiniz.

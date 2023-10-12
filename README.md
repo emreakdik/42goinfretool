@@ -4,17 +4,6 @@ Bu araç, geliştirme sürecinizde ihtiyaç duyduğunuz tarayıcıları veya ara
 
 **Uyarı:** Goinfre'ye kurulum nedeniyle başka bir bilgisayara geçtiğinizde bu araçları yeniden kurmanız gerekecektir.
 
-## Kullanım Talimatları
-Kurulum yapmak için terminalinize 'download' komutunu kullanın.
-
-**Örnek Kullanım:**
-```bash
-echo "download firefox vscode slack"
-```
-```bash
-update firefox vscode slack
-```
-
 # Kurulum
 
 Asagidaki komut ile kurulumu gerceklestirebilirsiniz. 
@@ -24,24 +13,20 @@ git clone https://github.com/emreakdik/42goinfretool; cd 42goinfreetool; ./insta
 
 Daha sonra tool'u kullanmaya baslayabilirsiniz.
 
-## Kullanim
+## Kullanim Talimatlari
 
 Terminal uzerinden download komutunu kullanarak chrome, firefox, vscode ya da slack uygulamalarini goinfrenize kurabilirsiniz.
 
 **Ornegin:**
 
+**Örnek Kullanım:**
 ```bash
-download chrome
+ download firefox vscode slack
 ```
 ```bash
-download vscode
+update firefox vscode slack
 ```
-```bash
-download firefox
-```
-```bash
-download slack
-```
+
 
 **Eger vscode, chrome ve slack uygulamalarini tek komutla kurmak istiyorsaniz "download emre" komutunu kullanabilirsiniz.**
 

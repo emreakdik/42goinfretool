@@ -1,6 +1,6 @@
 #!/bin/bash
 source $HOME/.src/colors.sh
-
+source $HOME/.src/label.sh
 clear
 
 echo -e "${BOLD}${GREEN}   Browsers           Utilities   ${RESET}"

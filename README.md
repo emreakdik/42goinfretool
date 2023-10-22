@@ -23,9 +23,6 @@ Terminal uzerinden download komutunu kullanarak chrome, firefox, vscode ya da sl
 ```bash
  download firefox vscode slack
 ```
-```bash
-update firefox vscode slack
-```
 
 
 **Eger vscode, chrome ve slack uygulamalarini tek komutla kurmak istiyorsaniz "download emre" komutunu kullanabilirsiniz.**

@@ -1,6 +1,11 @@
 
 install_dir="$HOME/goinfre/apps"
 
+#if there is 42goinfreetool folder at the same place, delete it
+if [ ls | grep -q "42goinfreetool" ]; then
+    rm -rf 42goinfreetool
+fi
+
 # check if there .src 
 if [ -d ~/.src ]; then
     rm -rf ~/.src

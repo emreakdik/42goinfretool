@@ -6,7 +6,7 @@ install_dir="$HOME/goinfre/apps"
 mkdir -p "$install_dir"
 
 browsers=("chrome" "firefox" "help")
-utilities=("vscode" "slack")
+utilities=("vscode" "slack" "spotify")
 
 if [ "$1" == "" ]; then
     echo "Hatali Girdi."
@@ -25,6 +25,8 @@ install_app() {
         install_vscode
     elif [ "$app_name" == "slack" ]; then
         install_slack
+    elif [ "$app_name" == "spotify" ]; then
+        install_spotify
     elif [ "$app_name" == "emre" ]; then
         install_emre
     elif [ "$app_name" == "help" ]; then

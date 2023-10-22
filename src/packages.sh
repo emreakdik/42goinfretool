@@ -99,9 +99,34 @@ install_chrome(){
     fi
 }
 
+install_spotify(){
+    
+        spotify_url="https://download.scdn.co/Spotify.dmg"
+        spotify_dmg="Spotify.dmg"
+        spotify_dmg_path="$install_dir/$spotify_dmg"
+        spotify_app="Spotify.app"
+    
+        curl -L -o "$spotify_dmg_path" "$spotify_url"
+    
+        if [ -e "$spotify_dmg_path" ]; then
+            hdiutil attach "$spotify_dmg_path"
+            cp -R "/Volumes/Spotify/$spotify_app" "$install_dir"
+            mv "$install_dir/$spotify_app" "$install_dir/spotify.app"
+            hdiutil detach "/Volumes/Spotify"
+            rm "$spotify_dmg_path"
+            ln -s "$install_dir/spotify.app" "$HOME/Desktop/spotify"
+            clear
+            echo "Spotify başarıyla kuruldu"
+        else
+            clear
+            echo "Spotify DMG dosyası indirilemedi veya hedef dizine taşınamadı."
+        fi
+}
+
 install_emre(){
 
     install_chrome
     install_vscode
     install_slack
+    install_spotify
 }

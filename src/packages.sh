@@ -34,10 +34,10 @@ install_vscode(){
 
     unzip vscode.zip -d "$install_dir"
 
+    rm vscode.zip
+
     cd "$install_dir"
 
-    rm vscode.zip
-    
     ln -s "$install_dir/Visual Studio Code.app" "$HOME/Desktop/vscode"
 
     clear

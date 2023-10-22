@@ -111,10 +111,10 @@ install_spotify(){
         if [ -e "$spotify_dmg_path" ]; then
             hdiutil attach "$spotify_dmg_path"
             cp -R "/Volumes/Spotify/$spotify_app" "$install_dir"
-            mv "$install_dir/$spotify_app" "$install_dir/spotify.app"
+            mv "$install_dir/$spotify_app" "$install_dir/spotify-42.app"
             hdiutil detach "/Volumes/Spotify"
             rm "$spotify_dmg_path"
-            ln -s "$install_dir/spotify.app" "$HOME/Desktop/spotify"
+            ln -s "$install_dir/spotify-42.app" "$HOME/Desktop/spotify-42"
             clear
             echo "Spotify başarıyla kuruldu"
         else
